@@ -1,0 +1,170 @@
+/* override yui */
+/* width:XXem for non-IE (n/13) */
+/* *width:XXem; for IE (n/13.3333) */
+
+/*	##################################
+   	GENERAL
+	################################## */
+
+body {
+	color: #636b70;
+	background: #ffffff;
+	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+
+/*	##################################
+   	BASIC LAYOUT
+	################################## */
+
+#custom-doc {
+	text-align:left;
+	margin:auto;
+	width:800px;
+}
+#hd {
+	position: relative;
+	width: 800px;
+	margin: 0 auto 0px;
+	padding-top:10px;
+}
+#bd {
+	z-index: 1;
+	clear:both;
+}
+#ft {
+	clear:both;
+}
+
+/*	##################################
+   	HEADER
+	################################## */
+
+#hd .org {
+	margin:0 auto;
+	width:200px;
+}
+#hd img {
+	margin-top:30px;
+}
+
+/*	##################################
+   	BODY
+	################################## */
+
+#bd .products {
+	margin-left: 100px;
+}
+
+#bd .products a {
+ 	margin: 90px auto 60px;
+	display:block;
+	float:left;
+	padding:10px;
+	border-width:1px;
+	border-color:#dddddd;
+	border-style:none solid none none;
+	height:80px;
+}
+#bd .products img {
+	margin: 0 auto 0px;
+}
+#bd a.last {
+	border-style:none;
+}
+/*	##################################
+   	FOOTER
+	################################## */
+#ft {
+	border-width:1px;
+	border-color:#dddddd;
+	border-style:solid none none none;
+	color:#bbbbbb;
+	font-size:90%;
+	text-align:center;
+}
+
+/*	##################################
+   	CLEARING
+	################################## */
+	
+.clear {
+	clear:both;
+}
+
+.hidden {
+	display: none;
+}
+
+/*	##################################
+   	GLOBAL
+	################################## */
+
+.left { float:left; }
+.right { float:right; }
+.no-values { color:#999999; font-size:0.85em; }
+.hint { color:#999999; font-size:0.85em; }
+.nowrap { white-space:nowrap; }
+strong { font-weight: bold; }
+*:focus {
+	outline-style:none !important;
+}
+h1 {
+	color:#3f3f3d;
+	font-size:152%;
+	font-weight:bold;
+	margin-top:0.4em;
+	margin-bottom:0.3em;
+	margin-left:10px;
+}
+h2 {
+	margin: 0 0 0.4em 0;
+	color:#4E595F;
+	font-size: 118%;
+	font-weight:bold;
+}
+h3 {
+	border-color:-moz-use-text-color -moz-use-text-color #E0E0E0;
+	color: #434343;
+	font-size: 117.1%;
+	margin:0.3em 0pt 0.1em;
+	font-weight:bold;
+	clear:both;
+}
+a { color:#636b70; }
+a:hover { text-decoration:underline; }
+
+.content { padding-bottom:1em; }
+.content h2 { margin-top:1em; margin-top:1em; }
+.content p { margin-bottom:1em; }
+.content a { color:#CA701C; }
+.content a:hover { text-decoration:underline; }
+.content table {
+	margin-bottom:1em;
+}
+.content table.content th {
+	font-weight:bold;
+	border: 1px solid #DEE5D9;
+	padding:0.2em;
+	background-color:#8CC93F;
+	color:#FFFFFF;
+}
+.content table.content td {
+	border: 1px solid #DEE5D9;
+	padding:0.2em;
+}
+.content table.content th.header {
+	background-color:#EEEEEE;
+	color:#3F3F3F;
+}
+.content table.content th .hint {
+	color:#3F3F3F;
+}
+.content ul, .content ol {
+	margin-bottom: 1em;
+}
+.content li {
+	list-style-type:disc;
+	list-style-position:outside;
+	margin:0.5em 0pt 0.5em 2em;
+}

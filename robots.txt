@@ -1,0 +1,4 @@
+# robots.txt for http://www.gut.org
+
+User-agent: *
+Disallow: /cgi-bin
