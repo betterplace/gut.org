@@ -82,7 +82,7 @@ body {
 	color:#bbbbbb;
 	font-size:90%;
 	text-align:center;
-	padding-top: 50px;
+	padding: 50px 0;
 }
 
 /*	##################################
@@ -109,28 +109,6 @@ body {
 strong { font-weight: bold; }
 *:focus {
 	outline-style:none !important;
-}
-h1 {
-	color:#3f3f3d;
-	font-size:152%;
-	font-weight:bold;
-	margin-top:0.4em;
-	margin-bottom:0.3em;
-	margin-left:10px;
-}
-h2 {
-	margin: 0 0 0.4em 0;
-	color:#4E595F;
-	font-size: 118%;
-	font-weight:bold;
-}
-h3 {
-	border-color:-moz-use-text-color -moz-use-text-color #E0E0E0;
-	color: #434343;
-	font-size: 117.1%;
-	margin:0.3em 0pt 0.1em;
-	font-weight:bold;
-	clear:both;
 }
 a { color:#636b70; }
 a:hover { text-decoration:underline; }
