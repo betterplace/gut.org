@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_to: https://www.betterplace.org/c/regeln/datenschutz
+redirect_url: https://www.betterplace.org/c/regeln/datenschutz
 ---
